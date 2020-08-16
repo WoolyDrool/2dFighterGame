@@ -1,0 +1,5 @@
+
+
+[Dialog System]
+- Dialog does not restart sequence after the player has finished it for the first time. Possibly something to do with the NPCManager?? 
+

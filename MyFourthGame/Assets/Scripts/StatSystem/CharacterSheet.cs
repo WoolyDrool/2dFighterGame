@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+namespace Player{
 public class CharacterSheet : MonoBehaviour
 {
+#region Variables
     [Header("Base Stats")]
     public int vitality = 10;
     public int endurance = 10;
@@ -47,6 +49,7 @@ public class CharacterSheet : MonoBehaviour
     public TextMeshProUGUI XP;
     public TextMeshProUGUI XPNeededToLevel;
     public TextMeshProUGUI Level;
+#endregion
 
     private void Awake()
     {
@@ -253,4 +256,5 @@ public class CharacterSheet : MonoBehaviour
     }
     #endregion
 #endregion
+}
 }

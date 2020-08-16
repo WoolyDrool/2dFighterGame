@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Player{
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerLocomotionController : MonoBehaviour
 {
@@ -117,4 +118,5 @@ public class PlayerLocomotionController : MonoBehaviour
     public void Recalc()
     {
     }
+}
 }

@@ -17,10 +17,11 @@ public class SaveStation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButton("General Interact"))
+        if(Input.GetButtonDown("General Interact") && canInteract)
         {
             Debug.Log("Opened level screen");
-            levelUpScreen.gameObject.SetActive(true);
+            levelUpScreen.SetActive(true);
+            
         }
     }
 
