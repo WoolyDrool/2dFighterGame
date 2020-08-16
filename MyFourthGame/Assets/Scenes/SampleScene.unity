@@ -1761,6 +1761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prompt: {fileID: 1825905478}
   levelUpScreen: {fileID: 728515184}
+  canInteract: 0
 --- !u!1 &818141955
 GameObject:
   m_ObjectHideFlags: 0
@@ -7229,6 +7230,11 @@ PrefabInstance:
       propertyPath: curXP
       value: 1600
       objectReference: {fileID: 0}
+    - target: {fileID: 8705435288379670881, guid: 7db200f3eb63df64398c2450f35989b3,
+        type: 3}
+      propertyPath: Level
+      value: 
+      objectReference: {fileID: 1415832113}
     - target: {fileID: 8705435288379670890, guid: 7db200f3eb63df64398c2450f35989b3,
         type: 3}
       propertyPath: m_Name

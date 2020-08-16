@@ -96,6 +96,7 @@ public class CharacterSheet : MonoBehaviour
         FaNumber.SetText(fWeapons.ToString());
         XP.SetText("XP: " + curXP.ToString());
         XPNeededToLevel.SetText("XP Needed for Level: " + xpNeededToLevelUp.ToString());
+        Level.SetText("Level: " + curLevel.ToString());
         //Debug.Log(health.ToString());
     }
 
