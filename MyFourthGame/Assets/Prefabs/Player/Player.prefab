@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28684dda0f777424e930e412708b45d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 4.2
+  movementSpeed: 3.7
   jumpPower: 9.2
   isGrounded: 1
   isJumping: 0
@@ -222,8 +222,26 @@ MonoBehaviour:
   fWeapons: 10
   health: 0
   stamina: 0
+  curXP: 750
+  xpNeededToLevelUp: 0
+  curLevel: 1
+  maxLevel: 99
   staminaRegenAmount: 3
+  vitholder: 0
+  endholder: 0
+  agholder: 0
+  melholder: 0
+  faholder: 0
   staminaBar: {fileID: 0}
+  healthBar: {fileID: 0}
+  VitNumber: {fileID: 0}
+  EndNumber: {fileID: 0}
+  AgiNumber: {fileID: 0}
+  MelNumber: {fileID: 0}
+  FaNumber: {fileID: 0}
+  XP: {fileID: 0}
+  XPNeededToLevel: {fileID: 0}
+  Level: {fileID: 0}
 --- !u!114 &8705435288379670880
 MonoBehaviour:
   m_ObjectHideFlags: 0
