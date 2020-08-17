@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Player;
+using Weapons;
 
 public class PlayerCombatManager : MonoBehaviour
 {
+    /*
     [Header("Variables")]
-    public WeaponTemplate curWeapon;
+    public Weapon curWeapon;
 
     // Start is called before the first frame update
     void Start()
@@ -33,5 +35,5 @@ public class PlayerCombatManager : MonoBehaviour
             }
         }
        
-    }
+    }*/
 }
